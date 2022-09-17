@@ -20,7 +20,7 @@
                 <div class="card-body">
                     <label for="eboard-member" class="col-form-label">EBoard Member</label>
                     <select class="select2-select" id="eboard-member" name="eboard-member">
-                    <option value="all">EBoard in General</option>
+                    <option value="all">EBoard in General </option>
                         {% for member in eboard %}
                             <option value="{{ member.uid }}">({{ member.cn }})</option>
                         {% endfor %}
@@ -44,10 +44,10 @@
             <div class="card m-3">
                 <div class="card-body">
                     <div class="form-group label-floating is-empty">
-                        <label for="dislikes" class=" control-label">What You Dislike?</label>
+                        <label for="dislikes" class=" control-label">What You Dislike? Tommy watered the plant with Jason while I was cleaning the library >(</label>
 
                         <textarea name="dislikes" class="form-control" rows="3" id="dislikes"></textarea>
-                        <span class="help-block">Tommy watered the plant with Jason while I was busy working on the jukebox</span>
+                        <span class="help-block">What do you dislike about this director?</span>
 
                         <span class="material-input"></span><span class="material-input"></span>
                     </div>
